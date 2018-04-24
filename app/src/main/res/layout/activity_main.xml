@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:orientation="vertical"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="50dp"
+        android:gravity="center"
+        tools:context=".MainActivity">
+
+        <Button
+            android:id="@+id/textViewBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Text View"
+            android:onClick="goActivity"/>
+
+        <Button
+            android:id="@+id/autoCompleteTextViewBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="AutoComplete Text View"
+            android:onClick="goActivity"/>
+
+        <Button
+            android:id="@+id/alertDialogBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Alert Dialog"
+            android:onClick="goActivity"/>
+
+        <Button
+            android:id="@+id/checkBoxBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="CheckBox"
+            android:onClick="goActivity"/>
+
+        <Button
+            android:id="@+id/toggleBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Toggle Button"
+            android:onClick="goActivity"/>
+
+        <Button
+            android:id="@+id/radioGroupBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Radio Group"
+            android:onClick="goActivity"/>
+
+        <Button
+            android:id="@+id/progressBarBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Progress Bar"
+            android:onClick="goActivity"/>
+
+        <Button
+            android:id="@+id/spinnerBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Spinner"
+            android:onClick="goActivity"/>
+
+        <Button
+            android:id="@+id/timePickerBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="TimePicker And DatePicker"
+            android:onClick="goActivity"/>
+
+        <Button
+            android:id="@+id/dateTimePickerDialogBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Date and Time Picker Dialog"
+            android:onClick="goActivity"/>
+
+    </LinearLayout>
+</ScrollView>
